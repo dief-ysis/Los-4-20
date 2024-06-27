@@ -1,0 +1,10 @@
+def verificar_asistencia(asistencias):
+    total_clases = len(asistencias)
+    clases_asistidas = sum(asistencias)
+    
+    porcentaje_asistencia = (clases_asistidas / total_clases) * 100
+    
+    if porcentaje_asistencia >= 80:
+        return "Aprobado"
+    else:
+        return "Reprueba por Inasistencia"
