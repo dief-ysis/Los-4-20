@@ -12,7 +12,7 @@ def verificar_aprobacion_por_asistencia(asistencias, total_clases):
     if porcentaje_asistencia >= 65:
         return "Aprobado"
     else:
-        return "Reprobado por inasistencia (RI)"
+        return "Reprobado por inasistencia"
     
 def actualizar_archivo_notas(nombre_archivo, nota_presentacion, resultado_asistencia):
     try:
